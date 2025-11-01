@@ -34,10 +34,12 @@
 
 .hero-dugme-link{
     color: var(--primary-color);
-    background-color: rgb(215, 250, 242);
+    background-color: #d6edf8;
     text-decoration: underline;
 }
-
+.hero-dugme-link:hover{
+    background-color: #bccfd8;
+}
 @media (min-width: 768px) {
     .hero-grid{
         grid-template-columns: 1fr 1fr;

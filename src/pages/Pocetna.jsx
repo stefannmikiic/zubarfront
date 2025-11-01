@@ -2,6 +2,7 @@ import React from 'react'
 import HeroSekcija from '../components/HeroSekcija'
 import OnamaSekcija from '../components/OnamaSekcija'
 
+
 const Pocetna = () => {
   return (
 
@@ -13,6 +14,7 @@ const Pocetna = () => {
     dugme2 = {"Saznajte više"}
     slika = {"../../images/zubarka.png"}>
     </HeroSekcija>
+
 
     <OnamaSekcija></OnamaSekcija>
 

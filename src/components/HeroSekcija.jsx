@@ -1,5 +1,6 @@
 import React from 'react'
 import './CSS/HeroSekcija.css'
+import { AppointmentForm } from './AppointmentForm'
 
 const HeroSekcija = ({naslov, opis ,slika,dugme1,dugme2}) => {
   return (
@@ -16,6 +17,7 @@ const HeroSekcija = ({naslov, opis ,slika,dugme1,dugme2}) => {
        </div>
        
     </div>
+    <AppointmentForm></AppointmentForm>
     </section>
     
   )

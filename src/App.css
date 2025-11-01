@@ -1,7 +1,7 @@
 :root{
     --primary-color: #24a0df;
     --secondary-color: #092c3d;
-    --background-color: #f5f5f5;
+    --background-color: #d6edf8;
     --text-color: #333333;
 }
 
@@ -15,7 +15,9 @@ button{
     transition: background-color 0.3s ease;
     margin: 5px;
 }
-
+button:hover {
+    background-color: #1b7bbf;
+}
 p{
     color: var(--text-color);
 }
