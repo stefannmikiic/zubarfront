@@ -18,10 +18,14 @@ button{
 button:hover {
     background-color: #1b7bbf;
 }
-p{
+p, li{
     color: var(--text-color);
 }
 
 h1, h2, h3, h4, h5, h6{
     color: var(--secondary-color);
+}
+
+span{
+    color: var(--primary-color);
 }

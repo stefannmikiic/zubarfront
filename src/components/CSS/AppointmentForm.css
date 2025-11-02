@@ -9,6 +9,8 @@
     display: grid;
     grid-template-columns: 1fr; /* Mobile: stack */
     gap: 15px;
+    position: static;
+    z-index: auto;
 }
 
 .form-group {
@@ -93,3 +95,4 @@ input[type="time"]::-webkit-calendar-picker-indicator {
         margin-top: 0;
     }
 }
+

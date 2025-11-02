@@ -1,0 +1,72 @@
+.onama-sekcija {
+    /* Add your styles here */
+    background-color: #ffffff;
+    padding: 80px;
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    
+}
+
+.slika-onama img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.slika-onama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tekst-onama {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: center;
+    margin: 0px;
+}
+
+.lista-aboutus {
+  list-style: none; /* uklanja tačkice */
+  padding: 0;
+}
+
+.lista-aboutus li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 8px; /* lepši razmak */
+}
+
+.check-icon {
+  margin-right: 10px;
+  color: var(--primary-color);
+  line-height: 1; /* da nema vertikalnog skoka */
+  flex-shrink: 0; /* sprečava smanjivanje u flex layoutu */
+  font-size: 30px;
+}
+
+@media (max-width: 1024px) {
+  .onama-sekcija {
+    grid-template-columns: 1fr; /* umesto dve kolone -> jedna */
+    padding: 40px;
+    margin-top: 50px;
+    position: static;
+    z-index: auto;
+  }
+
+  .slika-onama {
+    display: none; /* sakrij celu div sekciju sa slikom */
+  }
+
+  .tekst-onama {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
