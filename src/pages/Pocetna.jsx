@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroSekcija from '../components/HeroSekcija'
 import OnamaSekcija from '../components/OnamaSekcija'
-
+import Traka from '../components/Traka'
 
 const Pocetna = () => {
   return (
@@ -17,7 +17,7 @@ const Pocetna = () => {
 
 
     <OnamaSekcija></OnamaSekcija>
-
+    <Traka></Traka>
     </>
   )
 }
