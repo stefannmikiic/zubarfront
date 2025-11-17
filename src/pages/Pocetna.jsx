@@ -2,6 +2,7 @@ import React from 'react'
 import HeroSekcija from '../components/HeroSekcija'
 import OnamaSekcija from '../components/OnamaSekcija'
 import Traka from '../components/Traka'
+import OurServices from '../components/OurServices'
 
 const Pocetna = () => {
   return (
@@ -18,6 +19,7 @@ const Pocetna = () => {
 
     <OnamaSekcija></OnamaSekcija>
     <Traka></Traka>
+    <OurServices></OurServices>
     </>
   )
 }
