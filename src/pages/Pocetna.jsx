@@ -3,6 +3,7 @@ import HeroSekcija from '../components/HeroSekcija'
 import OnamaSekcija from '../components/OnamaSekcija'
 import Traka from '../components/Traka'
 import OurServices from '../components/OurServices'
+import WhyChooseUs from '../components/WhyChooseUs'
 
 const Pocetna = () => {
   return (
@@ -20,6 +21,7 @@ const Pocetna = () => {
     <OnamaSekcija></OnamaSekcija>
     <Traka></Traka>
     <OurServices></OurServices>
+    <WhyChooseUs></WhyChooseUs>
     </>
   )
 }
