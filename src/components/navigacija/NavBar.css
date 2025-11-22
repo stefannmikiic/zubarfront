@@ -1,0 +1,60 @@
+.nav-bar {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+    animation: fadeDown 0.6s ease;
+}
+
+.nav-bar img {
+    max-height: 50px;
+    justify-self: center;
+    
+    
+}
+
+.levo-nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.lista-nav-bar{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.lista-nav-bar li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 500;
+    position: relative;
+}
+
+.lista-nav-bar li a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #24a0df;
+  transition: 0.3s;
+}
+
+.lista-nav-bar li a:hover::after {
+  width: 100%;
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-20px);}
+  to { opacity: 1; transform: translateY(0);}
+}

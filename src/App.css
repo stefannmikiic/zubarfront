@@ -14,6 +14,7 @@ button{
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin: 5px;
+    box-shadow: 0 4px 10px rgba(0,153,255,0.3);
 }
 button:hover {
     background-color: #1b7bbf;
