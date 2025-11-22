@@ -6,33 +6,33 @@ import './CSS/OurServices.css';
 export default function OurServices() {
   return (
     <section className="services-section">
-       <p className="podnaslov">OUR SERVICES</p>
+       <p className="podnaslov">NASE USLUGE</p>
       <h2 className="title">
-        A Wide Range of Services <br /> <span>for Your Best Smile</span>
+        Sirok izbor usluga <br /> <span>za Vaš Najbolji Osmeh</span>
       </h2>
-      <button className="explore-btn">Explore All Services</button>
+      <button className="explore-btn">Pregledajte Sve Usluge</button>
 
       <div className="cards-container">
         <ServiceCard
           icon="/images/tooth2.png"
           image="/images/dentistry.png"
-          title="General Dentistry"
+          title="Opsta Stomatologija"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore..."
-          onLearnMore={() => alert('General Dentistry details')}
+          onLearnMore={() => alert('Opsta Stomatologija details')}
         />
         <ServiceCard
           icon="/images/tooth2.png"
           image="/images/dentistry.png"
-          title="General Dentistry"
+          title="Oralna Hirurgija"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore..."
-          onLearnMore={() => alert('General Dentistry details')}
+          onLearnMore={() => alert('Oralna Hirurgija details')}
         />
         <ServiceCard
           icon="/images/tooth2.png"
           image="/images/dentistry.png"
-          title="General Dentistry"
+          title="Ortodoncija"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore..."
-          onLearnMore={() => alert('General Dentistry details')}
+          onLearnMore={() => alert('Ortodoncija details')}
         />
       </div>
     </section>
