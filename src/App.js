@@ -1,11 +1,18 @@
 import React from 'react';
 import './App.css';
 import Pocetna from './pages/Pocetna';
+import Services from './pages/Services';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
-    <Pocetna />
+       <BrowserRouter>
+         <Routes>
+           <Route path='/' element={<Pocetna />} />
+           <Route path='/services' element={<Services />} />
+         </Routes>
+       </BrowserRouter>
     </>
   );
 }
