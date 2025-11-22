@@ -5,6 +5,7 @@ import Traka from '../components/Traka'
 import OurServices from '../components/OurServices'
 import WhyChooseUs from '../components/WhyChooseUs'
 import CaseStoriesSection from '../components/CaseStoriesSection'
+import HowItWorks from '../components/HowItWorks'
 
 const Pocetna = () => {
   return (
@@ -24,6 +25,8 @@ const Pocetna = () => {
     <OurServices></OurServices>
     <WhyChooseUs></WhyChooseUs>
     <CaseStoriesSection></CaseStoriesSection>
+    <HowItWorks></HowItWorks>
+    <Traka></Traka>
     </>
   )
 }
