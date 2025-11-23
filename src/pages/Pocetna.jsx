@@ -6,6 +6,7 @@ import OurServices from '../components/OurServices'
 import WhyChooseUs from '../components/WhyChooseUs'
 import CaseStoriesSection from '../components/CaseStoriesSection'
 import HowItWorks from '../components/HowItWorks'
+import ZakazivanjeForma from '../components/ZakazivanjeForma'
 const Pocetna = () => {
   return (
 
@@ -26,6 +27,7 @@ const Pocetna = () => {
     <CaseStoriesSection></CaseStoriesSection>
     <HowItWorks></HowItWorks>
     <Traka></Traka>
+    <ZakazivanjeForma></ZakazivanjeForma>
     </>
   )
 }

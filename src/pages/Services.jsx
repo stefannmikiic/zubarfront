@@ -3,6 +3,7 @@ import HeroOstaleStranice from '../components/HeroOstaleStranice'
 import '../components/CSS/Services.css'
 import ServiceCard from '../components/ServiceCard'
 import Traka from '../components/Traka'
+import ZakazivanjeForma from '../components/ZakazivanjeForma'
 const Services = () => {
   return (
 
@@ -58,6 +59,8 @@ const Services = () => {
         />
       </div>
       </section>
+      <Traka></Traka>
+      <ZakazivanjeForma></ZakazivanjeForma>
       <Traka></Traka>
     </>
   )
