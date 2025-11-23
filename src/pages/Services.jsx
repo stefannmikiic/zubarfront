@@ -5,6 +5,7 @@ import ServiceCard from '../components/ServiceCard'
 import Traka from '../components/Traka'
 import ZakazivanjeForma from '../components/ZakazivanjeForma'
 import FAQ from '../components/FAQ'
+import Newsletter from '../components/Newsletter'
 const Services = () => {
   return (
 
@@ -64,6 +65,8 @@ const Services = () => {
       <ZakazivanjeForma></ZakazivanjeForma>
       <Traka></Traka>
       <FAQ></FAQ>
+      
+      <Newsletter></Newsletter>
     </>
   )
 }

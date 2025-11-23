@@ -8,6 +8,7 @@ import CaseStoriesSection from '../components/CaseStoriesSection'
 import HowItWorks from '../components/HowItWorks'
 import ZakazivanjeForma from '../components/ZakazivanjeForma'
 import FAQ from '../components/FAQ'
+import Newsletter from '../components/Newsletter'
 const Pocetna = () => {
   return (
 
@@ -31,6 +32,7 @@ const Pocetna = () => {
     <ZakazivanjeForma></ZakazivanjeForma>
     <Traka></Traka>
     <FAQ></FAQ>
+    <Newsletter></Newsletter>
     </>
   )
 }
