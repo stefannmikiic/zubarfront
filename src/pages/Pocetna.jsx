@@ -7,6 +7,7 @@ import WhyChooseUs from '../components/WhyChooseUs'
 import CaseStoriesSection from '../components/CaseStoriesSection'
 import HowItWorks from '../components/HowItWorks'
 import ZakazivanjeForma from '../components/ZakazivanjeForma'
+import FAQ from '../components/FAQ'
 const Pocetna = () => {
   return (
 
@@ -28,6 +29,8 @@ const Pocetna = () => {
     <HowItWorks></HowItWorks>
     <Traka></Traka>
     <ZakazivanjeForma></ZakazivanjeForma>
+    <Traka></Traka>
+    <FAQ></FAQ>
     </>
   )
 }
