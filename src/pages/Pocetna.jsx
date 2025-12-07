@@ -6,6 +6,9 @@ import OurServices from '../components/OurServices'
 import WhyChooseUs from '../components/WhyChooseUs'
 import CaseStoriesSection from '../components/CaseStoriesSection'
 import HowItWorks from '../components/HowItWorks'
+import FAQ from '../components/FAQ'
+import Newsletter from '../components/Newsletter'
+import NovaForma from '../components/NovaForma'
 const Pocetna = () => {
   return (
 
@@ -17,8 +20,8 @@ const Pocetna = () => {
     dugme2 = {"Saznajte više"}
     slika = {"../../images/zubarka.png"}>
     </HeroSekcija>
-
-
+    <Traka></Traka>
+    <NovaForma></NovaForma>
     <OnamaSekcija></OnamaSekcija>
     <Traka></Traka>
     <OurServices></OurServices>
@@ -26,6 +29,8 @@ const Pocetna = () => {
     <CaseStoriesSection></CaseStoriesSection>
     <HowItWorks></HowItWorks>
     <Traka></Traka>
+    <FAQ></FAQ>
+    <Newsletter></Newsletter>
     </>
   )
 }

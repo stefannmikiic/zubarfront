@@ -1,0 +1,29 @@
+.services-section {
+  text-align: center;
+  padding: 3rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+  
+}
+
+.cards-container{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 kolone */
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px; /* opciono zbog lepšeg rasporeda */
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+@media (max-width: 900px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr); /* tablet */
+  }
+}
+
+@media (max-width: 600px) {
+  .cards-container {
+    grid-template-columns: 1fr; /* telefon */
+  }
+}

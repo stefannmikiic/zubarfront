@@ -1,0 +1,23 @@
+.hero-ostale-stranice {
+    display: flex;
+    background-image: url('../../../public/images/druga_pozadina.png');
+    background-size: cover;
+    background-position: center;
+    color: var(--secondary-color);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5% 10%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+   
+}
+.hero-ostale-stranice h2 {
+    display: flex;
+    font-size: 2.5rem;
+    /* margin-bottom: 10px; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,7 +1,7 @@
 import './CSS/AppointmentForm.css';
 import  React from 'react';
 import {FaUser, FaPhone, FaCalendarAlt, FaClock} from "react-icons/fa";
-export const AppointmentForm = () => {
+ const AppointmentForm = () => {
     return (
         <form className="appointment-form" onSubmit={(e) => e.preventDefault()}>
             <div className="form-group">
@@ -42,4 +42,6 @@ export const AppointmentForm = () => {
 
             </form>
     );
-}
+    };
+
+export default AppointmentForm;

@@ -1,0 +1,172 @@
+
+.novaforma-kontejner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 4rem 2rem;
+  background-color: white;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.novaforma-levoo {
+  flex: 1 1 60%;
+  max-width: 700px;
+}
+
+.novaforma-naslov {
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 1.4;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+}
+
+
+.novaforma-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.novaforma-input-par {
+  display: flex;
+  flex-direction: column;
+}
+
+.novaforma-input-par label {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.novaforma-input-par input,
+.novaforma-input-par select,
+.novaforma-input-par textarea {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+
+.novaforma-textarea {
+  grid-column: span 2;
+}
+
+.novaforma-input-par textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.novaforma-dugme {
+  grid-column: span 2;
+  text-align: left;
+}
+
+
+
+.novaforma-dugme button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.novaforma-informacije-desno {
+  flex: 1 1 35%;
+
+  /*
+  flex-basis: 35%;
+  flext-grow: 1;
+  flex-shrink: 1;
+  */
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 10%;
+}
+
+.novaforma-opis-klinike {
+  color: var(--text-color);
+  font-size: 0.95rem;
+  max-width: 400px;
+}
+
+.novaforma-radno-vreme {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+.novaforma-radno-vreme p {
+  color: var(--secondary-color);
+}
+
+.novaforma-radno-vreme h4 {
+  margin-bottom: 1rem;
+    color: white;
+}
+
+.novaforma-radno-vreme ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+    color: white;
+
+}
+
+.novaforma-radno-vreme li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.novaforma-hitne-info {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.novaforma-hitne-info .prioritet {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.novaforma-hitne-info h3 {
+  margin: 0.5rem 0;
+  color: var(--secondary-color);
+}
+
+.novaforma-hitne-info .telefon {
+  margin: 0;
+  color: var(--text-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .novaforma-kontejner {
+    flex-direction: column;
+  }
+
+  .novaforma-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .novaforma-input-par textarea,
+  .novaforma-dugme {
+    grid-column: span 1;
+  }
+}
