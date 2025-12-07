@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './CSS/HeroOstaleStranice.css'
 const HeroOstaleStranice = ({naslov}) => {
   return (
     <section>
-        <div>
+        <div className='hero-ostale-stranice'>
             <h2>{naslov}</h2>
         </div>
     </section>

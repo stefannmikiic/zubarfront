@@ -7,13 +7,13 @@ export default function CaseStoriesSection() {
     <section className="case-section">
       <div className="case-header">
         <div>
-          <p className="case-subtitle">OUR CASE STORIES</p>
+          <p className="case-subtitle">NAŠE PRIČE PACIJENATA</p>
           <h2 className="case-title">
-            <span className="light-text">Patient Journeys to</span><br />
-            <span>Healthier, Happier Smiles</span>
+            <span className="light-text">Avanture do</span><br />
+            <span>Zdravijih, Srećnijih Osmeha</span>
           </h2>
         </div>
-        <button className="case-btn">Explore All Case Stories</button>
+        <button className="case-btn">Istrazi sve price</button>
       </div>
 
       <div className="case-cards">
@@ -21,11 +21,11 @@ export default function CaseStoriesSection() {
         <div className="case-card">
           <img src="../../images/dentistry.png" alt="Case 1" className="case-img" />
           <div className="case-info">
-            <h3>A Brighter Tomorrow: <br />Sarah’s Whitening Journey</h3>
+            <h3>Za sjajnije sutra: <br />Sarino putovanje izbeljivanja</h3>
             <div className="case-tags">
               <span>2024</span>
-              <span>Teeth Whitening</span>
-              <span>Dental Care</span>
+              <span>Izbeljivanje zuba</span>
+              <span>Stomatološka nega</span>
             </div>
           </div>
           <div className="case-icon"><LuArrowUpRight /></div>
@@ -34,11 +34,11 @@ export default function CaseStoriesSection() {
         <div className="case-card">
           <img src="../../images/dentistry.png" alt="Case 2" className="case-img" />
           <div className="case-info">
-            <h3>A Beautiful Transformation: <br />Olivia’s Braces Journey</h3>
+            <h3>Prelepa transformacija: <br />Olivijino putovanje sa protezom</h3>
             <div className="case-tags">
               <span>2024</span>
-              <span>Braces Treatment</span>
-              <span>Dental Care</span>
+              <span>Tretman proteza</span>
+              <span>Stomatološka nega</span>
             </div>
           </div>
           <div className="case-icon"><LuArrowUpRight /></div>

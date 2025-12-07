@@ -3,14 +3,24 @@ import HeroOstaleStranice from '../components/HeroOstaleStranice'
 import '../components/CSS/Services.css'
 import ServiceCard from '../components/ServiceCard'
 import Traka from '../components/Traka'
+<<<<<<< HEAD
 import FAQ from '../components/FAQ'
 import Newsletter from '../components/Newsletter'
 import NovaForma from '../components/NovaForma'
+=======
+import ZakazivanjeForma from '../components/ZakazivanjeForma'
+import FAQ from '../components/FAQ'
+import Newsletter from '../components/Newsletter'
+>>>>>>> 54a3678e0b641ee7c65e9ed7a80138e7a3e158ac
 const Services = () => {
   return (
 
     <>
+<<<<<<< HEAD
     <HeroOstaleStranice />
+=======
+    <HeroOstaleStranice naslov="Naše Usluge" />
+>>>>>>> 54a3678e0b641ee7c65e9ed7a80138e7a3e158ac
       <section className='services-section'>
         <p className="podnaslov">NASE USLUGE</p>
         <h2 className="title">
@@ -62,12 +72,20 @@ const Services = () => {
       </div>
       </section>
       <Traka></Traka>
+<<<<<<< HEAD
       <FAQ></FAQ>
       <Newsletter></Newsletter>
       <Traka></Traka>
       <NovaForma></NovaForma>
       <Traka></Traka>
       
+=======
+      <ZakazivanjeForma></ZakazivanjeForma>
+      <Traka></Traka>
+      <FAQ></FAQ>
+      
+      <Newsletter></Newsletter>
+>>>>>>> 54a3678e0b641ee7c65e9ed7a80138e7a3e158ac
     </>
   )
 }

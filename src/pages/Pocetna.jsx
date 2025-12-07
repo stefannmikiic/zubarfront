@@ -6,9 +6,15 @@ import OurServices from '../components/OurServices'
 import WhyChooseUs from '../components/WhyChooseUs'
 import CaseStoriesSection from '../components/CaseStoriesSection'
 import HowItWorks from '../components/HowItWorks'
+<<<<<<< HEAD
 import FAQ from '../components/FAQ'
 import Newsletter from '../components/Newsletter'
 import NovaForma from '../components/NovaForma'
+=======
+import ZakazivanjeForma from '../components/ZakazivanjeForma'
+import FAQ from '../components/FAQ'
+import Newsletter from '../components/Newsletter'
+>>>>>>> 54a3678e0b641ee7c65e9ed7a80138e7a3e158ac
 const Pocetna = () => {
   return (
 
@@ -29,6 +35,11 @@ const Pocetna = () => {
     <CaseStoriesSection></CaseStoriesSection>
     <HowItWorks></HowItWorks>
     <Traka></Traka>
+<<<<<<< HEAD
+=======
+    <ZakazivanjeForma></ZakazivanjeForma>
+    <Traka></Traka>
+>>>>>>> 54a3678e0b641ee7c65e9ed7a80138e7a3e158ac
     <FAQ></FAQ>
     <Newsletter></Newsletter>
     </>
